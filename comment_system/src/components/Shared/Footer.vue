@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <!--<div>-->
         <footer class="mastfoot mt-auto">
             <div class="inner">
                 <p>@Copyright Prime-Clet 2019/2020</p>
             </div>
         </footer>
-    </div>
+    <!--</div>-->
 </template>
 
 <script>
@@ -14,6 +14,12 @@
     }
 </script>
 
-<style scoped>
-
+<style>
+    /*
+     * Footer
+     */
+    .mastfoot {
+        color: rgba(255, 255, 255, .5);
+        font-size: 18px;
+    }
 </style>

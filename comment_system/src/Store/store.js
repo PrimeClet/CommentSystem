@@ -1,16 +1,15 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import userData from './modules/users'
+import comments from './modules/comments'
 
 Vue.use(Vuex)
 
-export const store = new Vuex.Store({
-    state: {
-        counter: 0,
+
+export default new Vuex.Store({
+    modules: {
+        userData,
+        comments
     },
-
-    getters: {},
-
-    mutations: {},
-
-    actions: {}
-});
+    strict: true,
+})
